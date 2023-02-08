@@ -5,7 +5,7 @@ interface AppProps {
   name: string;
   type: string;
   status: string;
-  created_at: string;
+  createdOn: string;
 }
 
 function App() {
@@ -35,7 +35,7 @@ function App() {
             <div className="w-60">{item.name}</div>
             <div className="w-60">{item.type}</div>
             <div className="w-60">{item.status}</div>
-            <div className="w-60">{item.created_at}</div>
+            {/* <div className="w-60">{item.created_at}</div> */}
           </div>
         ))}
       </div>
